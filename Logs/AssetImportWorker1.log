@@ -1,0 +1,202 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.4f1c1 (64682593795a) revision 6580261'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\app_unity3d\2021.3.4f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/project_unity3d/forWork/genshinRender
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+24303
+Successfully changed project path to: E:/project_unity3d/forWork/genshinRender
+E:/project_unity3d/forWork/genshinRender
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 73.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1c1 (64682593795a)
+[Subsystems] Discovering subsystems at path D:/app_unity3d/2021.3.4f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/project_unity3d/forWork/genshinRender/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12108 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'D:/app_unity3d/2021.3.4f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/app_unity3d/2021.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/app_unity3d/2021.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/app_unity3d/2021.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001809 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\project_unity3d\forWork\genshinRender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\project_unity3d\forWork\genshinRender\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3825.
+Memory consumption went from 120.1 MB to 120.0 MB.
+Total: 2.546300 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.189400 ms MarkObjects: 2.010400 ms  DeleteObjects: 0.074000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54971.296313 seconds.
+  path: Assets/GenshinResources/GenshinModel/发.png
+  artifactKey: Guid(53b6ea03f9a9fa540a9692736b75312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/发.png using Guid(53b6ea03f9a9fa540a9692736b75312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3457e8f234017365b34861d8f9c78abb') in 0.115254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GenshinResources/GenshinModel/表情.png
+  artifactKey: Guid(5db4216e662f6ad4aa9353338078e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/表情.png using Guid(5db4216e662f6ad4aa9353338078e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab852aa23598ea3adfeb064da4919c1c') in 0.028392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GenshinResources/GenshinModel/面.png
+  artifactKey: Guid(70c184008f4d26643b840544441e978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/面.png using Guid(70c184008f4d26643b840544441e978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa410eaa63063910e3bde35f7b5e2a7') in 0.012946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GenshinResources/GenshinModel/肌.png
+  artifactKey: Guid(467acaea579af1343b4d3e82f2682644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/肌.png using Guid(467acaea579af1343b4d3e82f2682644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7cdc90c9d661175be30d49fba623a8') in 0.014801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GenshinResources/GenshinModel/服.png
+  artifactKey: Guid(15340fd1b392a8e43bc0fc54a47daefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/服.png using Guid(15340fd1b392a8e43bc0fc54a47daefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd829f0fc857760ac704b4874a6457d4d') in 0.014227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.389972 seconds.
+  path: Assets/GenshinResources/GenshinModel/Materials/肌.mat
+  artifactKey: Guid(8e08279105f90944c9b17f2ce247d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/Materials/肌.mat using Guid(8e08279105f90944c9b17f2ce247d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b12ffbc6470f592f4ecdb433129d037') in 0.244024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.927124 seconds.
+  path: Assets/GenshinResources/GenshinModel/ganyu.fbx
+  artifactKey: Guid(b37cf3868971ae049b0af2e3c425d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GenshinResources/GenshinModel/ganyu.fbx using Guid(b37cf3868971ae049b0af2e3c425d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96976e253b7dd2ca5a115752e1228fa6') in 0.132373 seconds 
